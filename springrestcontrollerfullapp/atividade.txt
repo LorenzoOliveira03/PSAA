@@ -1,0 +1,13 @@
+1.são 4 controladores um register student(post), um get all students, um update students(put) e o student delete.
+
+2. O post register student recebe um objeto do tipo Student que tem as propriedades name, age e registrationNumber.
+  o get não recebe nada, apenas envia.
+  o update recebe o mesmo objeto student.
+  O delete recebe um registrationNumber para identificar o estudante.
+
+3. O post devolve um objeto StudentRegistrationReply, que tem as propriedades name, age, registrationNumber e registrationStatus.
+o get devolve uma List<Student>.
+O update devolve uma string dizendo se o update foi realizado com sucesso ou não.
+O delete devolve uma string dizendo se o update foi realizado com sucesso ou não.
+
+4.todas as rotas funcionaram corretamente e nao tivemos nhum erro visivel.
